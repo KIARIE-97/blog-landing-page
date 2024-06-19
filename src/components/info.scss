@@ -1,0 +1,31 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    .product_img{
+        width: 40%;
+        margin-left: 40px;
+        img{
+            width: 90%;
+            height: 90%;
+        }
+    }
+    .info_text{
+        width: 45%;
+        margin-right: 40px;
+        padding: 20px;
+    }
+    h4{
+        font-size: 1.5rem;
+        font-weight: 350;
+        margin-bottom: 10px;
+        color: hsl(208, 49%, 24%);
+    }
+    p{
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+}
